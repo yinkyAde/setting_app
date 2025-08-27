@@ -1,16 +1,28 @@
-# setting_app
+# ⚙️ Flutter Settings Screen (Dark & Light Mode)
 
-A new Flutter project.
+A beautiful, modern **Settings screen** built with **Flutter**, inspired by a curated design spotted on X (via [@leyeconnect](https://twitter.com/leyeconnect)).  
 
-## Getting Started
+This implementation comes with:
+-  Dark & Light mode support  
+-  Clean, color-coded tiles  
+-  A distinct **Danger Zone** section  
+-  A clickable **Learn more about us** link (text only, not the icon)  
+-  Simple theme switching (System / Light / Dark)  
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Preview
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://github.com/user-attachments/assets/1815a28a-ad13-48a9-b5f9-c5da48a69e87
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+---
+
+## Features
+
+- **Theme Controller**: lightweight, package-free way to toggle between `ThemeMode.system`, `ThemeMode.light`, and `ThemeMode.dark`.  
+- **Danger Zone**: Always-yellow warning icon with clear separation.  
+- **Learn More Section**: Icon stays static; only the text row is clickable (faithful to the original design).  
+- **Bottom Navigation Bar**: Matches the mockup design, with `Settings` tab selected.  
+- **Production-ready code**: Clean architecture, reusable `SettingTile` widget.  
