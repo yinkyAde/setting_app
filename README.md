@@ -1,4 +1,4 @@
-# ⚙️ Flutter Settings Screen (Dark & Light Mode)
+#  Flutter Settings Screen (Dark & Light Mode)
 
 A beautiful, modern **Settings screen** built with **Flutter**, inspired by a curated design spotted on X (via [@leyeconnect]([https://twitter.com/leyeconnect](https://x.com/leyeConnect/status/1946587947467190391))).  
 
